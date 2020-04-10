@@ -12,7 +12,7 @@ app.use(cors());
 
 mongoose
  .connect(
-  "mongodb+srv://Moises:12345@cluster0-neaa9.mongodb.net/test?retryWrites=true&w=majority",
+  "YOUR MONGODB URL CONNECTION HERE",
   { useNewUrlParser: true, useUnifiedTopology: true }
  )
  .then(() => console.log("Connected to MongoDB Atlas"))
